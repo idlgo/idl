@@ -1,4 +1,4 @@
-# 作为 IDL 来使用 go 
+# 将 go 作为 IDL 来使用
 
 ## 背景
 
@@ -16,9 +16,9 @@ idl 文件描述接口，但是本身缺少版本控制和模块控制
 
 ## 临时实现
 
-时间有限，只做了一个 go 2 thrift 的翻译程序（本意并不是这个）
+时间有限，只做了一个 go 2 thrift 的翻译程序（本意并不是这个），然后再用翻译得到的 thrift 文件去使用 thrift 生态的工具
 
-使用参考 本项目下的 `example/idl_test.go`
+使用参考本项目下的 `example/idl_test.go` （记得带上 build tag `idl`
 
 ## 现在可以
 
